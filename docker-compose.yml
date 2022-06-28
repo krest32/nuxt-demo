@@ -1,0 +1,10 @@
+version: "3"
+services:
+  hello-nuxt:
+    build: .
+    image: hello-nuxt
+    container_name: hello-nuxt
+    network_mode: host
+    ports:
+    - "3000:3000"
+    
